@@ -1,0 +1,6 @@
+backend/model/Page.class
+backend/SwitchApplication.class
+backend/model/Upload.class
+backend/model/User.class
+backend/helpers/DataHelper.class
+backend/restController/RequestController.class
