@@ -25,23 +25,6 @@ public class RequestController {
     }
 
 
-    @GetMapping("/git_test")
-    String gitTest(){
-        return "app successful";
-    }
-
-    @GetMapping("/test")
-    String test(){
-        return "app quite successful";
-    }
-
-    @GetMapping("/different_test")
-    String test2(){
-        return "last test";
-    }
-
-
-
     @GetMapping("/usernames")
     String getUsernames(){
         return helper.getUserNames();
