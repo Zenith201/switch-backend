@@ -35,7 +35,7 @@ public class RequestController {
         return "app quite successful";
     }
 
-    @GetMapping("/test2")
+    @GetMapping("/different_test")
     String test2(){
         return "last test";
     }
