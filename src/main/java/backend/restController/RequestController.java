@@ -30,6 +30,12 @@ public class RequestController {
         return "app successful";
     }
 
+    @GetMapping("/test")
+    String test(){
+        return "app quite successful";
+    }
+
+
     @GetMapping("/usernames")
     String getUsernames(){
         return helper.getUserNames();
