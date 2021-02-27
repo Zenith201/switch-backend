@@ -35,6 +35,12 @@ public class RequestController {
         return "app quite successful";
     }
 
+    @GetMapping("/test2")
+    String test2(){
+        return "last test";
+    }
+
+
 
     @GetMapping("/usernames")
     String getUsernames(){
